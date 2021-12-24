@@ -22,12 +22,10 @@ def anagram(s):
         while x < len(arrayA):
             for y in range(len(arrayB)):
                 if arrayA[x] == arrayB[y]:
-                    arrayA.pop(x)
                     arrayB.pop(y)
-                    x = -1
                     break
             x += 1
-        return len(arrayA)
+        return len(arrayB)
 
     else: return -1
 
