@@ -13,6 +13,6 @@ def achaListaSolo(b):
     return None
 
 
-if _name_ == '_main_':
+if __name__ == '__main__':
 
     print(achaListaSolo([1,2,3,5,4,1,2,3,4]))
